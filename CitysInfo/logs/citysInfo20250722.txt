@@ -1,0 +1,299 @@
+2025-07-22 13:37:00.625 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-07-22 13:39:57.345 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-07-22 13:39:57.731 +05:30 [DBG] The property 'PointofInterestDto.CityId' was created in shadow state because there are no eligible CLR members with a matching name.
+2025-07-22 13:39:57.785 +05:30 [DBG] Entity Framework Core 9.0.7 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.7' with options: None
+2025-07-22 13:39:57.800 +05:30 [DBG] 'CityInfoContext' disposed.
+2025-07-22 15:22:39.461 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-07-22 15:22:39.635 +05:30 [DBG] Hosting starting
+2025-07-22 15:22:39.667 +05:30 [DBG] Middleware loaded
+2025-07-22 15:22:39.669 +05:30 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16503 B).
+2025-07-22 15:22:39.671 +05:30 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-07-22 15:22:39.795 +05:30 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-07-22 15:22:39.805 +05:30 [DBG] Loaded hosting startup assembly CitysInfo
+2025-07-22 15:22:39.806 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-07-22 15:22:39.806 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-07-22 15:22:39.806 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-07-22 15:22:39.886 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44397/swagger/index.html - null null
+2025-07-22 15:22:39.992 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-22 15:22:39.992 +05:30 [INF] Hosting environment: Development
+2025-07-22 15:22:39.992 +05:30 [INF] Content root path: C:\practice\backend\CitysInfo\CitysInfo
+2025-07-22 15:22:39.993 +05:30 [DBG] Hosting started
+2025-07-22 15:22:40.640 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-07-22 15:22:40.702 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-07-22 15:22:40.705 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-07-22 15:22:40.758 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-07-22 15:22:40.760 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-07-22 15:22:40.770 +05:30 [DBG] Connection ID "18230571300991008769" disconnecting.
+2025-07-22 15:22:40.775 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44397/swagger/index.html - 200 null text/html;charset=utf-8 896.9456ms
+2025-07-22 15:22:40.785 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44397/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-22 15:22:40.788 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44397/_vs/browserLink - null null
+2025-07-22 15:22:40.791 +05:30 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-07-22 15:22:40.799 +05:30 [DBG] Connection ID "18230571309580943396" disconnecting.
+2025-07-22 15:22:40.801 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44397/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 7.459ms
+2025-07-22 15:22:40.923 +05:30 [DBG] Connection ID "18230571300991008771" disconnecting.
+2025-07-22 15:22:40.928 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44397/_vs/browserLink - 200 null text/javascript; charset=UTF-8 140.2992ms
+2025-07-22 15:22:41.011 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44397/swagger/v1/swagger.json - null null
+2025-07-22 15:22:41.031 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44397/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.4484ms
+2025-07-22 15:22:41.036 +05:30 [DBG] Connection ID "18014398536057094186" disconnecting.
+2025-07-22 15:29:52.901 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-07-22 15:29:53.026 +05:30 [DBG] Hosting starting
+2025-07-22 15:29:53.046 +05:30 [DBG] Middleware loaded
+2025-07-22 15:29:53.049 +05:30 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16503 B).
+2025-07-22 15:29:53.050 +05:30 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-07-22 15:29:53.163 +05:30 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-07-22 15:29:53.171 +05:30 [DBG] Loaded hosting startup assembly CitysInfo
+2025-07-22 15:29:53.172 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-07-22 15:29:53.172 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-07-22 15:29:53.172 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-07-22 15:29:53.236 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44397/swagger/index.html - null null
+2025-07-22 15:29:53.370 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-07-22 15:29:53.442 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-07-22 15:29:53.444 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-07-22 15:29:53.483 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-07-22 15:29:53.484 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-07-22 15:29:53.513 +05:30 [DBG] Connection ID "18158513724132950023" disconnecting.
+2025-07-22 15:29:53.519 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-22 15:29:53.519 +05:30 [INF] Hosting environment: Development
+2025-07-22 15:29:53.519 +05:30 [INF] Content root path: C:\practice\backend\CitysInfo\CitysInfo
+2025-07-22 15:29:53.519 +05:30 [DBG] Hosting started
+2025-07-22 15:29:53.517 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44397/swagger/index.html - 200 null text/html;charset=utf-8 286.563ms
+2025-07-22 15:29:53.521 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44397/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-22 15:29:53.522 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44397/_vs/browserLink - null null
+2025-07-22 15:29:53.549 +05:30 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-07-22 15:29:53.555 +05:30 [DBG] Connection ID "18230571309580943400" disconnecting.
+2025-07-22 15:29:53.555 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44397/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 28.7706ms
+2025-07-22 15:29:53.596 +05:30 [DBG] Connection ID "18230571300991008775" disconnecting.
+2025-07-22 15:29:53.603 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44397/_vs/browserLink - 200 null text/javascript; charset=UTF-8 81.1482ms
+2025-07-22 15:29:53.640 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44397/swagger/v1/swagger.json - null null
+2025-07-22 15:29:53.658 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44397/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.2226ms
+2025-07-22 15:30:31.149 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-07-22 15:30:31.509 +05:30 [DBG] The property 'PointofInterestDto.CityId' was created in shadow state because there are no eligible CLR members with a matching name.
+2025-07-22 15:30:31.577 +05:30 [DBG] Entity Framework Core 9.0.7 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.7' with options: None
+2025-07-22 15:30:31.587 +05:30 [DBG] 'CityInfoContext' disposed.
+2025-07-22 15:34:45.354 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-07-22 15:34:45.782 +05:30 [DBG] The property 'PointofInterestDto.CityId' was created in shadow state because there are no eligible CLR members with a matching name.
+2025-07-22 15:34:45.848 +05:30 [DBG] Entity Framework Core 9.0.7 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.7' with options: None
+2025-07-22 15:34:46.489 +05:30 [DBG] 'CityInfoContext' disposed.
+2025-07-22 16:35:36.711 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-07-22 16:35:37.170 +05:30 [DBG] The property 'PointofInterestDto.CityId' was created in shadow state because there are no eligible CLR members with a matching name.
+2025-07-22 16:35:37.248 +05:30 [DBG] Entity Framework Core 9.0.7 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:9.0.7' with options: None
+2025-07-22 16:35:37.413 +05:30 [DBG] Creating DbConnection.
+2025-07-22 16:35:37.429 +05:30 [DBG] Created DbConnection. (13ms).
+2025-07-22 16:35:37.430 +05:30 [DBG] Migrating using database 'main' on server 'CityInfo.db'.
+2025-07-22 16:35:37.440 +05:30 [DBG] Creating DbConnection.
+2025-07-22 16:35:37.444 +05:30 [DBG] Created DbConnection. (4ms).
+2025-07-22 16:35:37.446 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2025-07-22 16:35:37.462 +05:30 [DBG] An error occurred using the connection to database 'main' on server 'CityInfo.db'.
+2025-07-22 16:35:37.464 +05:30 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2025-07-22 16:35:37.468 +05:30 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (1ms).
+2025-07-22 16:35:37.469 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2025-07-22 16:35:37.482 +05:30 [DBG] Opened connection to database 'main' on server 'C:\practice\backend\CitysInfo\CitysInfo\CityInfo.db'.
+2025-07-22 16:35:37.486 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-22 16:35:37.494 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2025-07-22 16:35:37.496 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (10ms).
+2025-07-22 16:35:37.500 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2025-07-22 16:35:37.524 +05:30 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2025-07-22 16:35:37.527 +05:30 [DBG] Closing connection to database 'main' on server 'C:\practice\backend\CitysInfo\CitysInfo\CityInfo.db'.
+2025-07-22 16:35:37.530 +05:30 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (3ms).
+2025-07-22 16:35:37.530 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2025-07-22 16:35:37.530 +05:30 [DBG] Opened connection to database 'main' on server 'C:\practice\backend\CitysInfo\CitysInfo\CityInfo.db'.
+2025-07-22 16:35:37.531 +05:30 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-07-22 16:35:37.532 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-07-22 16:35:37.533 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-07-22 16:35:37.533 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-07-22 16:35:37.533 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsLock' AND "type" = 'table';
+2025-07-22 16:35:37.537 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsLock' AND "type" = 'table';
+2025-07-22 16:35:37.538 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-22 16:35:37.538 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-07-22 16:35:37.538 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-07-22 16:35:37.538 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsLock" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK___EFMigrationsLock" PRIMARY KEY,
+    "Timestamp" TEXT NOT NULL
+);
+2025-07-22 16:35:37.543 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsLock" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK___EFMigrationsLock" PRIMARY KEY,
+    "Timestamp" TEXT NOT NULL
+);
+2025-07-22 16:35:37.545 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-07-22 16:35:37.545 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-07-22 16:35:37.545 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-07-22 16:35:37.546 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT OR IGNORE INTO "__EFMigrationsLock"("Id", "Timestamp") VALUES(1, '2025-07-22 11:05:37.5451829+00:00');
+SELECT changes();
+2025-07-22 16:35:37.547 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT OR IGNORE INTO "__EFMigrationsLock"("Id", "Timestamp") VALUES(1, '2025-07-22 11:05:37.5451829+00:00');
+SELECT changes();
+2025-07-22 16:35:37.605 +05:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-07-22 16:35:37.609 +05:30 [DBG] Began transaction with isolation level 'Serializable'.
+2025-07-22 16:35:37.611 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-22 16:35:37.611 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-07-22 16:35:37.611 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-07-22 16:35:37.612 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2025-07-22 16:35:37.612 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2025-07-22 16:35:37.614 +05:30 [DBG] Committing transaction.
+2025-07-22 16:35:37.616 +05:30 [DBG] Committed transaction.
+2025-07-22 16:35:37.617 +05:30 [DBG] Disposing transaction.
+2025-07-22 16:35:37.618 +05:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-07-22 16:35:37.618 +05:30 [DBG] Began transaction with isolation level 'Serializable'.
+2025-07-22 16:35:37.620 +05:30 [DBG] Creating DbConnection.
+2025-07-22 16:35:37.620 +05:30 [DBG] Created DbConnection. (0ms).
+2025-07-22 16:35:37.620 +05:30 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2025-07-22 16:35:37.621 +05:30 [DBG] Opened connection to database 'main' on server 'C:\practice\backend\CitysInfo\CitysInfo\CityInfo.db'.
+2025-07-22 16:35:37.623 +05:30 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2025-07-22 16:35:37.623 +05:30 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2025-07-22 16:35:37.623 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-07-22 16:35:37.623 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-07-22 16:35:37.623 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-07-22 16:35:37.624 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2025-07-22 16:35:37.624 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2025-07-22 16:35:37.627 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-07-22 16:35:37.628 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-07-22 16:35:37.628 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-07-22 16:35:37.628 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-07-22 16:35:37.629 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-07-22 16:35:37.631 +05:30 [DBG] Closing data reader to 'main' on server 'C:\practice\backend\CitysInfo\CitysInfo\CityInfo.db'.
+2025-07-22 16:35:37.632 +05:30 [DBG] A data reader for 'main' on server 'C:\practice\backend\CitysInfo\CitysInfo\CityInfo.db' is being disposed after spending 1ms reading results.
+2025-07-22 16:35:37.638 +05:30 [INF] Applying migration '20250722100446_CityInfoDBInitialMigration'.
+2025-07-22 16:35:37.670 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-22 16:35:37.670 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-07-22 16:35:37.670 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-07-22 16:35:37.670 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Cities" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Cities" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NOT NULL
+);
+2025-07-22 16:35:37.671 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Cities" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Cities" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NOT NULL
+);
+2025-07-22 16:35:37.671 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-22 16:35:37.671 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-07-22 16:35:37.671 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-07-22 16:35:37.671 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointofInterestDto" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PointofInterestDto" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL,
+    "CityId" INTEGER NULL,
+    CONSTRAINT "FK_PointofInterestDto_Cities_CityId" FOREIGN KEY ("CityId") REFERENCES "Cities" ("Id")
+);
+2025-07-22 16:35:39.372 +05:30 [INF] Executed DbCommand (1,701ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointofInterestDto" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PointofInterestDto" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL,
+    "CityId" INTEGER NULL,
+    CONSTRAINT "FK_PointofInterestDto_Cities_CityId" FOREIGN KEY ("CityId") REFERENCES "Cities" ("Id")
+);
+2025-07-22 16:35:39.373 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-22 16:35:39.373 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-07-22 16:35:39.373 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-07-22 16:35:39.373 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointsOfInterest" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PointsOfInterest" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "cityId" INTEGER NOT NULL,
+    CONSTRAINT "FK_PointsOfInterest_Cities_cityId" FOREIGN KEY ("cityId") REFERENCES "Cities" ("Id") ON DELETE CASCADE
+);
+2025-07-22 16:35:39.373 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointsOfInterest" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PointsOfInterest" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "cityId" INTEGER NOT NULL,
+    CONSTRAINT "FK_PointsOfInterest_Cities_cityId" FOREIGN KEY ("cityId") REFERENCES "Cities" ("Id") ON DELETE CASCADE
+);
+2025-07-22 16:35:39.373 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-22 16:35:39.373 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-07-22 16:35:39.373 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-07-22 16:35:39.374 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointofInterestDto_CityId" ON "PointofInterestDto" ("CityId");
+2025-07-22 16:35:39.374 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointofInterestDto_CityId" ON "PointofInterestDto" ("CityId");
+2025-07-22 16:35:39.374 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-22 16:35:39.374 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-07-22 16:35:39.374 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-07-22 16:35:39.374 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointsOfInterest_cityId" ON "PointsOfInterest" ("cityId");
+2025-07-22 16:35:39.374 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointsOfInterest_cityId" ON "PointsOfInterest" ("cityId");
+2025-07-22 16:35:39.374 +05:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-07-22 16:35:39.374 +05:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-07-22 16:35:39.374 +05:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-07-22 16:35:39.374 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20250722100446_CityInfoDBInitialMigration', '9.0.7');
+2025-07-22 16:35:39.375 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20250722100446_CityInfoDBInitialMigration', '9.0.7');
+2025-07-22 16:35:39.376 +05:30 [DBG] Committing transaction.
+2025-07-22 16:35:39.379 +05:30 [DBG] Committed transaction.
+2025-07-22 16:35:39.383 +05:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-07-22 16:35:39.384 +05:30 [DBG] Created DbCommand for 'ExecuteScalar' (1ms).
+2025-07-22 16:35:39.385 +05:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (2ms).
+2025-07-22 16:35:39.387 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "__EFMigrationsLock";
+2025-07-22 16:35:39.395 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "__EFMigrationsLock";
+2025-07-22 16:35:39.395 +05:30 [DBG] Disposing transaction.
+2025-07-22 16:35:39.395 +05:30 [DBG] Closing connection to database 'main' on server 'C:\practice\backend\CitysInfo\CitysInfo\CityInfo.db'.
+2025-07-22 16:35:41.325 +05:30 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (1929ms).
+2025-07-22 16:35:41.327 +05:30 [DBG] 'CityInfoContext' disposed.
+2025-07-22 16:35:41.328 +05:30 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2025-07-22 16:35:41.328 +05:30 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2025-07-22 16:40:06.902 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-07-22 16:40:07.099 +05:30 [DBG] Hosting starting
+2025-07-22 16:40:07.120 +05:30 [DBG] Middleware loaded
+2025-07-22 16:40:07.123 +05:30 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16503 B).
+2025-07-22 16:40:07.125 +05:30 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-07-22 16:40:07.285 +05:30 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-07-22 16:40:07.292 +05:30 [DBG] Loaded hosting startup assembly CitysInfo
+2025-07-22 16:40:07.292 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-07-22 16:40:07.293 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-07-22 16:40:07.293 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-07-22 16:40:07.399 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44397/swagger/index.html - null null
+2025-07-22 16:40:07.530 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-22 16:40:07.530 +05:30 [INF] Hosting environment: Development
+2025-07-22 16:40:07.530 +05:30 [INF] Content root path: C:\practice\backend\CitysInfo\CitysInfo
+2025-07-22 16:40:07.530 +05:30 [DBG] Hosting started
+2025-07-22 16:40:07.583 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-07-22 16:40:07.638 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-07-22 16:40:07.639 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-07-22 16:40:07.676 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-07-22 16:40:07.677 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-07-22 16:40:07.722 +05:30 [DBG] Connection ID "18014398536057094194" disconnecting.
+2025-07-22 16:40:07.723 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44397/_vs/browserLink - null null
+2025-07-22 16:40:07.723 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44397/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-22 16:40:07.723 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44397/swagger/index.html - 200 null text/html;charset=utf-8 304.4619ms
+2025-07-22 16:40:07.727 +05:30 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-07-22 16:40:07.731 +05:30 [DBG] Connection ID "18230571322465845281" disconnecting.
+2025-07-22 16:40:07.733 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44397/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 4.6595ms
+2025-07-22 16:40:07.769 +05:30 [DBG] Connection ID "18302628916503773205" disconnecting.
+2025-07-22 16:40:07.770 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44397/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.0633ms
+2025-07-22 16:40:07.800 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44397/swagger/v1/swagger.json - null null
+2025-07-22 16:40:07.813 +05:30 [DBG] Connection ID "18014398536057094196" disconnecting.
+2025-07-22 16:40:07.813 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44397/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.2311ms
