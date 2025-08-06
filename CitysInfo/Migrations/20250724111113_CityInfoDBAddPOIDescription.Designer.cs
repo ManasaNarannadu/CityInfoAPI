@@ -2,6 +2,7 @@
 using CitysInfo.DbContexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -9,9 +10,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CitysInfo.Migrations
 {
     [DbContext(typeof(CityInfoContext))]
-    partial class CityInfoContextModelSnapshot : ModelSnapshot
+    [Migration("20250724111113_CityInfoDBAddPOIDescription")]
+    partial class CityInfoDBAddPOIDescription
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.7");
@@ -35,26 +38,6 @@ namespace CitysInfo.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Cities");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Description = "The one with that big park. ",
-                            Name = "New York City"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Description = "The one with the cathedral that was never really finished. ",
-                            Name = "Antwerp"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Description = "the onw with that big tower. ",
-                            Name = "Paris"
-                        });
                 });
 
             modelBuilder.Entity("CitysInfo.Entities.PointsOfInterest", b =>
@@ -81,36 +64,6 @@ namespace CitysInfo.Migrations
                     b.HasIndex("cityId");
 
                     b.ToTable("PointsOfInterest");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Discription = "the most visited unbrun park in the united states.",
-                            Name = "Central Park",
-                            cityId = 1
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Discription = "A 102-story skycraper located in midtown manhattan.",
-                            Name = "Empire State building",
-                            cityId = 1
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Discription = "A gothic style cathdral, concevied by architects.",
-                            Name = "cathdral",
-                            cityId = 2
-                        },
-                        new
-                        {
-                            Id = 4,
-                            Discription = "most beautiful and highest tower in world.",
-                            Name = "efil tower",
-                            cityId = 3
-                        });
                 });
 
             modelBuilder.Entity("CitysInfo.Models.PointofInterestDto", b =>
