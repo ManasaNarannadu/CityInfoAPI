@@ -3,6 +3,7 @@ using CitysInfo.DbContexts;
 using CitysInfo.services;
 using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using Serilog;
 using System.Diagnostics;
 
@@ -39,10 +40,11 @@ builder.Services.AddTransient<IMailService,CloudMailService>();
 
 builder.Services.AddSingleton<CityDataStore>();
 
-builder.Services.AddDbContext<CityInfoContext>(DbContextOptions => DbContextOptions.UseSqlite("Data Source = CityInfo.db"));
+builder.Services.AddDbContext<CityInfoContext>(DbContextOptions => DbContextOptions.UseSqlite(builder.Configuration["ConnectionStrings:CityInfoDBConnectionString"]));
 
+builder.Services.AddScoped<ICityInfoRepository,CityInfoRepository>();
 
-
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
     //Adding a error details
     //builder.Services.AddProblemDetails(options =>
