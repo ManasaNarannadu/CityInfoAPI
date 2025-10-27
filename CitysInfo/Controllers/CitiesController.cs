@@ -27,7 +27,7 @@ namespace CitysInfo.Controllers
             _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
 
-        [HttpGet()]
+        [HttpGet(Name = "GetCities")]
         public async Task<ActionResult<CitywithoutPointsOfInterestDTO>> GetCities(string? name,string? searchQuery,int pageNumber = 1,int pageSize = 10)
         {
 
@@ -70,6 +70,16 @@ namespace CitysInfo.Controllers
                 return Ok(_mapper.Map<CityDto>(city));
             }
             return Ok(_mapper.Map<CitywithoutPointsOfInterestDTO>(city));
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddCities(CityCreationDTO cityData)
+        {
+            var newCity = _mapper.Map<City>(cityData);
+            await _cityInfoRepository.AddCity(newCity);
+            await _cityInfoRepository.SaveChangesAsync();
+            _mapper.Map<CityDto>(newCity);
+            return CreatedAtRoute("GetCities",new { Id = newCity.Id },newCity);
         }
     }
 }

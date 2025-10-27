@@ -1,5 +1,6 @@
 ﻿using CitysInfo.DbContexts;
 using CitysInfo.Entities;
+using CitysInfo.Models;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query;
@@ -102,6 +103,15 @@ namespace CitysInfo.services
         public async Task<bool> SaveChangesAsync()
         {
             return (await _context.SaveChangesAsync()>=0);
+        }
+
+        public async Task AddCity(City city)
+        {
+            if(city == null)
+            {
+                throw new ArgumentNullException (nameof(city));
+            }
+            _context.Cities.Add(city);
         }
     }
 }
